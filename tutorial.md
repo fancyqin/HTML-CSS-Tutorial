@@ -77,9 +77,18 @@ button、input、select、img等
 
 ### 伪元素
 
+::before ::after
+
 ### 元素属性
 
+共有的属性 style、class、id
+
+特有是属性 a的 href target ，img的src等等
+
+
 ### 语义化
+
+为什么要用不同标签
 
 ## CSS
 
@@ -95,15 +104,25 @@ button、input、select、img等
 
 显示
 
+display
+
 定位
+
+position top left right bottom
 
 背景
 
+
+
 文本
 
-间距 见下
+间距与尺寸 见下
 
 ### 盒模型
+
+图
+
+width、height、padding、border、box  
 
 #### 尺寸单位
 px、em、%、rem等
