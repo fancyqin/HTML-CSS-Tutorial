@@ -28,6 +28,7 @@ HTML就是整个大楼的地基、以及钢筋混凝土的大楼整个楼体，�
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>我是标题</title>
     </head>
     <body>
@@ -41,7 +42,7 @@ HTML就是整个大楼的地基、以及钢筋混凝土的大楼整个楼体，�
 
 ```
 
-DOCTYPE 文档模式...
+DOCTYPE 文档模式 常见的<!DOCTYPE html> 是HTML5文档写法。
 
 ...
 
@@ -67,7 +68,7 @@ div
 
 链接a、列表ul、ol、li
 
-文本p、span
+文本p、span、img
 
 修饰b、strong、em、i
 
@@ -87,7 +88,7 @@ div
 div、p、h1-h6、ul、li等等
 
 #### 行内元素
-a、span、b、strong、em、i、lebal等
+a、span、b、strong、em、i、label等
 
 #### 行内块元素
 button、input、select、img等
@@ -123,6 +124,10 @@ button、input、select、img等
 
 display
 
+#### 浮动
+
+float
+
 #### 定位
 
 position top left right bottom
@@ -157,6 +162,27 @@ px、em、%、rem等
 ### 6.继承、覆盖、优先级
 
 balabala..
+
+
+## JavaScript
+
+简单介绍一下JS。
+
+我们用CSS完成所有的静态页面，接下来我们需要用js来完成一些CSS做不到的交互动作。
+
+就好像我们给大楼贴好了瓷砖 ，刷好了墙面，我们需要给大楼内房间安装门窗、水龙头、电闸、开关等等，这样大楼才能“住人”。
+
+### JavaScript简介
+
+js能做什么？
+
+js能上九天揽月，js也可以下五洋捉鳖。
+
+通常在一个网页中，我们用js来控制页面元素、对事件作出反应、校验用户输入、与后台数据交互、计算、实现动画动效等。
+
+但这些都只是依托于浏览器这个环境来说，随着时间推移，js可以作的事情越来越多，它可以完成后端开发、管理数据库、写游戏、桌面应用、VR\AR、开发APP、甚至开发硬件\物联网。
+
+当然大多这些用其他语言也可以实现，这些工作说白了也只是所谓计算机技术的成就而已。
 
 ## 线上调试
 
