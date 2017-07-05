@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js例子</title>
+</head>
+<body>
+    <div>
+        <h1>百度搜索</h1>
+        <input class="J-input" type="text">
+        <button class="J-button">搜索</button>
+    </div>
+
+    <script>
+        document.querySelector('.J-button').addEventListener('click',function(){
+            var val = document.querySelector('.J-input').value;
+            if(!val){
+                alert('请输入搜索内容');
+            }else{
+                window.location.href = 'https://www.baidu.com/s?wd='+val
+            }
+        })
+    </script>
+</body>
+</html>

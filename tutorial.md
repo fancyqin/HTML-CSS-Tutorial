@@ -24,7 +24,7 @@ HTML就是整个大楼的地基、以及钢筋混凝土的大楼整个楼体，�
 
 通常一个html页面是这样的结构
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -62,24 +62,18 @@ img、input、br、link、meta等
 
 有不同标签，相当于图层有不同种类，形状、文字、智能对象等。
 
-div
-
-标题 h1-h6
-
-链接a、列表ul、ol、li
-
-文本p、span、img
-
-修饰b、strong、em、i
-
-表格table、tr、td
-
-表单input、select、button
+- div
+- 标题 h1-h6
+- 链接a、列表ul、ol、li
+- 文本p、span、img
+- 修饰b、strong、em、i
+- 表格table、tr、td
+- 表单input、select、button
 
 
 ### 3.元素
 
-```
+```html
     div 是一个标签
     <div>我是元素内容</div> 就称作元素。
 ```
@@ -146,7 +140,7 @@ font、line-height
 
 ### 3.盒模型
 
-图
+![box](../img/box.jpg)
 
 width、height、padding、border、box  
 
