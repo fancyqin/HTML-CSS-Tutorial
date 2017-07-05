@@ -18,7 +18,7 @@ HTML就是整个大楼的地基、以及钢筋混凝土的大楼整个楼体，�
 
 
 知道了网页三剑客的关系了，我们先来了解一下HTML。
-什么是HTML呢，HTML就是个筐
+什么是HTML呢，HTML全称是超文本标记语言。你不需要知道这些，其实它就是一系列描述你应该怎么把你想放的东西放进页面的规则。
 
 ### 1.结构组成
 
@@ -42,9 +42,9 @@ HTML就是整个大楼的地基、以及钢筋混凝土的大楼整个楼体，�
 
 ```
 
-DOCTYPE 文档模式 常见的<!DOCTYPE html> 是HTML5文档写法。
+DOCTYPE 文档模式 常见的<!DOCTYPE html> 是HTML5的文档写法。
 
-...
+接下
 
 ### 2.标签
 
@@ -100,7 +100,7 @@ button、input、select、img等
 
 ### 5.语义化
 
-为什么要用不同标签
+为什么要用不同标签来完成页面。
 
 ## CSS
 
@@ -108,15 +108,17 @@ button、input、select、img等
 
 ### 1.样式
 
-外部、内部、内联
+- 外部 头部使用link标签引入外部css文件
+- 内部 头部在style标签中填写样式
+- 内联 使用元素的style属性
 
-浏览器默认样式
+- 浏览器默认样式 ，如题
 
 ### 2.样式属性
 
 #### 显示
 
-display
+display 
 
 #### 浮动
 
@@ -155,8 +157,19 @@ px、em、%、rem等
 
 ### 6.继承、覆盖、优先级
 
-balabala..
+#### 继承
+部分css属性可以被继承。比如 font-family font-size，但不是所有元素都“听话”，这取决于元素是否存在浏览器自身属性，比如button、select等。
 
+#### 覆盖
+```css
+.box{color:red}
+.box{color:blue;color:green}
+```
+后者覆盖，green生效
+
+#### 优先级
+
+id > class > tag > * 
 
 ## JavaScript
 
