@@ -51,15 +51,30 @@ DOCTYPE 文档模式...
 
 #### 开始标签、结束标签
 
+<标签> <标签/>
+
 #### 自闭合标签
 
 img、input、br、link、meta等
 
 #### 常用标签
 
-div，标题 h1-h6，链接a、列表ul、ol、li，文本p、span，修饰b、strong、em、i，表格table、tr、td，表单input、select、button。
+有不同标签，相当于图层有不同种类，形状、文字、智能对象等。
 
-相当于图层有不同种类，形状、文字、智能对象等
+div
+
+标题 h1-h6
+
+链接a、列表ul、ol、li
+
+文本p、span
+
+修饰b、strong、em、i
+
+表格table、tr、td
+
+表单input、select、button
+
 
 ### 3.元素
 
@@ -118,7 +133,7 @@ background
 
 #### 文本
 
-font
+font、line-height
 
 #### 间距与尺寸
 
@@ -137,7 +152,6 @@ px、em、%、rem等
 ### 5.选择器
 
 标签选择器、类选择器、ID选择器、后代选择器、子选择器、伪类、通用、分组
-
 
 
 ### 6.继承、覆盖、优先级
