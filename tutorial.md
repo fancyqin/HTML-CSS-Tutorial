@@ -140,9 +140,9 @@ font、line-height
 
 ### 3.盒模型
 
-![box](../img/box.jpg)
+![box](img/box.jpg)
 
-width、height、padding、border、box  
+width、height、padding、border、margin、box-shadow  
 
 ### 4.尺寸单位
 
