@@ -58,7 +58,9 @@ DOCTYPE 文档模式 常见的<!DOCTYPE html> 是HTML5的文档写法。
 
 img、input、br、link、meta等
 
-#### 常用标签
+关于是否加/，HTML5文档模式可以不加。
+
+### 3.常用标签
 
 有不同标签，相当于图层有不同种类，形状、文字、智能对象等。
 
@@ -71,7 +73,7 @@ img、input、br、link、meta等
 - 表单input、select、button
 
 
-### 3.元素
+### 4.元素
 
 ```html
     div 是一个标签
@@ -91,16 +93,20 @@ button、input、select、img等
 
 ::before ::after
 
-### 4.元素属性
+### 5.元素属性
 
 共有的属性 style、class、id 等等
 
 特有的属性 a的 href target ，img的src等等
 
 
-### 5.语义化
+### 6.语义化
 
 为什么要用不同标签来完成页面。
+
+- 推广，更容易被搜索引擎爬取
+- 更容易被屏幕阅读器读取，例如safari的阅读模式
+- 及时去除了css样式，你的页面依然可读，其实同上点
 
 ## CSS
 
@@ -111,7 +117,6 @@ button、input、select、img等
 - 外部 头部使用link标签引入外部css文件
 - 内部 头部在style标签中填写样式
 - 内联 使用元素的style属性
-
 - 浏览器默认样式 ，如题
 
 ### 2.样式属性
@@ -123,6 +128,10 @@ display
 #### 浮动
 
 float
+
+清除浮动
+
+clear
 
 #### 定位
 
@@ -142,9 +151,9 @@ font、line-height
 
 ### 3.盒模型
 
-![box](img/box.jpg)
+![box](src/img/box.jpg)
 
-width、height、padding、border、margin、box-shadow  
+width、height、padding、border、margin
 
 ### 4.尺寸单位
 

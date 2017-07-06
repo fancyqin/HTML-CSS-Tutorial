@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML&CSS Tutorial~~</title>
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/moon.css" id="theme">
+</head>
+
+<body>
+<div class="reveal">
+
+    <div class="slides">
+
+        <section data-transition="convex">
+            <h2>设计稿是如何变成网页</h2>
+            <h4>如何让你的设计"公诸于众"</h4>
+            <h6>QF</h6>
+        </section>
+
+        <section data-transition="convex">
+            <h3>网页组成</h3>
+            <ul>
+                <li class="fragment" data-fragment-index="0">HTML <span class="fragment" data-fragment-index="1"> ：网页中的内容的载体</span></li>
+                <li class="fragment" data-fragment-index="0">CSS <span class="fragment" data-fragment-index="2"> ：页面中内容的表现</span></li>
+                <li class="fragment" data-fragment-index="0">JavaScript <span class="fragment" data-fragment-index="3"> ：用来实现页面上的效果</span></li>
+            </ul>
+        </section>
+
+        <section data-transition="convex">
+            <div>
+                <img src="img/HTML.jpg" width="300" alt="">
+            </div>
+        </section>
+        <section data-transition="convex">
+            <h2>HTML</h2>
+        </section>
+        <section>
+            <section data-transition="zoom">
+                <p>HTML全称是超文本标记语言</p>
+            </section>
+            <section data-transition="zoom">
+                <p>其实它就是一系列描述你应该怎么把你想放的东西放进页面的规则</p>
+            </section>
+        </section>
+        <section>
+            <section data-transition="zoom">
+                <h3>1.结构组成</h3>
+            </section>
+            <section data-transition="zoom">
+                <h3>2.标签</h3>
+                <p class="fragment" data-fragment-index="0">开始标签、结束标签</p>
+                <p class="fragment" data-fragment-index="1">自闭合标签</p>
+            </section>
+            <section data-transition="zoom">
+                <h3>3.常用标签</h3>
+                <p class="fragment" data-fragment-index="0">HTML有不同标签，<br>相当于图层有不同种类，形状、文字、智能对象</p>
+                <ul class="fragment" data-fragment-index="1">
+                    <li>div , division的意思。把页面分隔开</li>
+                    <li>标题 h1-h6</li>
+                    <li>文本 p、span、图片 img、链接 a</li>
+                    <li>修饰 b、strong、em、i</li>
+                    <li>表格 table、tr、th、td</li>
+                    <li>表单 input、select、button</li>
+                </ul>
+            </section>
+            <section data-transition="zoom">
+                <h3>4.元素</h3>
+                <div>
+                    <p class="fragment" data-fragment-index="0">div 是一个标签</p>
+                    <p class="fragment" data-fragment-index="1">&lt;div&gt;我是元素内容&lt;/div&gt; 就称作元素</p>
+                </div>
+            </section>
+            <section data-transition="zoom">
+                <h3>5.元素分类</h3>
+                <ul>
+                    <li class="fragment" data-fragment-index="0">块级元素&emsp; div、p、h1-h6、ul、li等</li>
+                    <li class="fragment" data-fragment-index="0">行内元素&emsp; a、span、b、strong、em、i、label等</li>
+                    <li class="fragment" data-fragment-index="0">行内块元素 button、input、select、img等</li>
+                    <li class="fragment" data-fragment-index="1">伪元素&emsp;&emsp; ::before ::after</li>
+                </ul>
+            </section>
+            <section data-transition="zoom">
+                <h3>6.元素属性</h3>
+                <p>共有的属性 style、class、id 等等</p>
+                <p>特有的属性 a的 href target ，img的src等等</p>
+            </section>
+            <section data-transition="zoom">
+                <h3>7.语义化</h3>
+                <p>为什么要用不同标签来完成页面？</p>
+                <ul>
+                    <li class="fragment" data-fragment-index="0">推广，更容易被搜索引擎爬取</li>
+                    <li class="fragment" data-fragment-index="1">更容易被屏幕阅读器读取，例如safari的阅读模式</li>
+                    <li class="fragment" data-fragment-index="2">及时去除了css样式，你的页面依然可读，其实同上点</li>
+                </ul>
+            </section>
+        </section>
+        <section data-transition="convex">
+            <div>
+                <img src="img/style.jpg" alt="">
+            </div>
+        </section>
+        <section data-transition="convex">
+            <h2>CSS</h2>
+        </section>
+        <section>
+            <section data-transition="zoom">
+                <p>CSS全称是层叠样式表</p>
+            </section>
+            <section data-transition="zoom">
+                <p>其实它就是用来修饰html元素的规则</p>
+                <br>
+                <p class="fragment" data-fragment-index="0">就像图层也有效果、样式，一样</p>
+            </section>
+        </section>
+        <section>
+            <section data-transition="zoom">
+                <h3>1.样式</h3>
+                <ul>
+                    <li class="fragment" data-fragment-index="0">外部&emsp;&emsp;头部使用link标签引入外部css文件</li>
+                    <li class="fragment" data-fragment-index="1">内部&emsp;&emsp;头部在style标签中填写样式</li>
+                    <li class="fragment" data-fragment-index="2">内联&emsp;&emsp;使用元素的style属性</li>
+                    <li class="fragment" data-fragment-index="3">浏览器默认样式 ，如题</li>
+                </ul>
+            </section>
+            <section data-transition="zoom">
+                <h3>2.样式属性</h3>
+                <p class="fragment" data-fragment-index="0">显示 display</p>
+                <p class="fragment" data-fragment-index="1">浮动 float 清除浮动 clear</p>
+                <p class="fragment" data-fragment-index="2">定位 position top left right bottom</p>
+                <p class="fragment" data-fragment-index="3">背景 background</p>
+                <p class="fragment" data-fragment-index="4">文本 font、line-height</p>
+                <p class="fragment" data-fragment-index="5">间距与尺寸</p>
+            </section>
+            <section data-transition="zoom">
+                <h3>3.盒模型</h3>
+                <p class="fragment" data-fragment-index="0">width、height、padding、border、margin</p>
+                <div class="fragment" data-fragment-index="0">
+                    <img src="img/box.jpg" alt="">
+                </div>
+            </section>
+            <section data-transition="zoom">
+                <h3>4.尺寸单位</h3>
+                <p class="fragment" data-fragment-index="0">px、em、%、rem 等</p>
+            </section>
+            <section data-transition="zoom">
+                <h3>5.选择器</h3>
+                <p class="fragment" data-fragment-index="0">标签选择器、类选择器、ID选择器、后代选择器、子选择器、伪类、通用、分组</p>
+            </section>
+            <section data-transition="zoom">
+                <h3>6.继承、覆盖、优先级</h3>
+                <p class="fragment" data-fragment-index="0"><b>继承</b>&emsp;&emsp;<span class="fragment" data-fragment-index="1">部分css属性可以被继承。比如 font-family font-size，但不是所有元素都“听话”，这取决于元素是否存在浏览器自身属性，比如button、select等。</span></p>
+                <p class="fragment" data-fragment-index="2"><b>覆盖</b>&emsp;&emsp;<span class="fragment" data-fragment-index="3">相同的样式名，在相同的优先级下，后者会覆盖前者的样式。</span></p>
+                <p class="fragment" data-fragment-index="4"><b>优先级</b>&emsp;&emsp;<span class="fragment" data-fragment-index="5"> id > class > tag > * </span></p>
+            </section>
+        </section>
+        <section data-transition="convex">
+            <h2>JavaScript</h2>
+        </section>
+        <section>
+            <section data-transition="zoom">
+                <h3>js能做什么</h3>
+            </section>
+            <section data-transition="zoom">
+                <div><img src="img/95.jpg" alt=""></div>
+            </section>
+            <section data-transition="zoom">
+                <p>通常在一个网页中，我们用js来控制页面元素、对事件作出反应、校验用户输入、与后台数据交互、计算、实现动画动效等。</p>
+            </section>
+            <section data-transition="zoom">
+                <p>但这些都只是依托于浏览器这个环境来说，随着时间推移，js可以作的事情越来越多，它可以完成后端开发、管理数据库、写游戏、桌面应用、VR\AR、开发APP、甚至开发硬件\物联网。</p>
+                <p>当然大多这些用其他语言也可以实现，这些工作说白了也只是所谓计算机技术的成就而已。</p>
+            </section>
+        </section>
+
+
+    </div>
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+
+    Reveal.initialize({
+        center: true,
+        history: true,
+
+        // transition: 'slide',
+        // transitionSpeed: 'slow',
+        // backgroundTransition: 'slide'
+    });
+
+</script>
+
+</body>
+</html>
