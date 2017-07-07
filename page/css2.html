@@ -4,11 +4,55 @@
     <meta charset="UTF-8">
     <title>css</title>
     <style>
+		.clearfix:after,.claerfix:before{
+			display: table;
+			content: '';
+		}
+		.clearfix:after{
+			clear: both;
+		}
+		.clearfix{
+			*zoom:1;
+		}
+		
+		.wrap{
+			background: #f70;
+			padding: 10px;
+		}
+
+		.box{
+			width: 100px;
+			height: 100px;
+		}
+
 
     </style>
 </head>
 <body>
+	<h3>display</h3>
+
     <div style="display:none">我隐藏</div>
+	<div style="display:block">我显示</div>
+
+
+
+	
+	<h3>float</h3>
+
+	<div class="wrap">
+		<div class="box" style="background:#f34;"></div>
+		<span style="font-size: 30px; font-family: '宋体';line-height: 1.5;color: #999;">我有一头小毛驴，我从来也不骑~	</span>
+	</div>
+
+	<h3>position</h3>
+
+	<div class="wrap clearfix" style="position: relative;">
+		<div class="box" style="float:left;"></div>
+		我有一头小毛驴，我从来也不骑~	
+
+		<div style="position: absolute;bottom: 0;right: 0;">我要定位在右下角</div>
+	</div>
+
 
 </body>
 </html>

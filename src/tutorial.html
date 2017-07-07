@@ -30,6 +30,11 @@
 
         <section data-transition="convex">
             <div>
+                <img src="img/wayne.jpg" alt="">
+            </div>
+        </section>
+        <section data-transition="convex">
+            <div>
                 <img src="img/HTML.jpg" width="300" alt="">
             </div>
         </section>
@@ -47,11 +52,12 @@
         <section>
             <section data-transition="zoom">
                 <h3>1.结构组成</h3>
+                <a href="../page/html1.html">demo</a>
             </section>
             <section data-transition="zoom">
                 <h3>2.标签</h3>
-                <p class="fragment" data-fragment-index="0">开始标签、结束标签</p>
-                <p class="fragment" data-fragment-index="1">自闭合标签</p>
+                <p class="fragment" data-fragment-index="0">开始标签 &lt;标签名&gt;、结束标签 &lt;/标签名&gt;</p>
+                <p class="fragment" data-fragment-index="1">自闭合标签 &lt;img&gt; &lt;input&gt; 等</p>
             </section>
             <section data-transition="zoom">
                 <h3>3.常用标签</h3>
@@ -64,30 +70,25 @@
                     <li>表格 table、tr、th、td</li>
                     <li>表单 input、select、button</li>
                 </ul>
+                <a href="../page/html2.html">demo</a>
             </section>
             <section data-transition="zoom">
                 <h3>4.元素</h3>
                 <div>
                     <p class="fragment" data-fragment-index="0">div 是一个标签</p>
                     <p class="fragment" data-fragment-index="1">&lt;div&gt;我是元素内容&lt;/div&gt; 就称作元素</p>
+                    <p class="fragment" data-fragment-index="2">相互包裹 &lt;div&gt;小样！&lt;span&gt;我被包了&lt;/span&gt;&lt;/div&gt;</p>
                 </div>
             </section>
             <section data-transition="zoom">
-                <h3>5.元素分类</h3>
-                <ul>
-                    <li class="fragment" data-fragment-index="0">块级元素&emsp; div、p、h1-h6、ul、li等</li>
-                    <li class="fragment" data-fragment-index="0">行内元素&emsp; a、span、b、strong、em、i、label等</li>
-                    <li class="fragment" data-fragment-index="0">行内块元素 button、input、select、img等</li>
-                    <li class="fragment" data-fragment-index="1">伪元素&emsp;&emsp; ::before ::after</li>
-                </ul>
-            </section>
-            <section data-transition="zoom">
-                <h3>6.元素属性</h3>
+                <h3>5.元素属性</h3>
+                <p>写法：在开始标签中，属性名="属性值"</p>
                 <p>共有的属性 style、class、id 等等</p>
                 <p>特有的属性 a的 href target ，img的src等等</p>
+                <a href="../page/html2.html">demo</a>
             </section>
             <section data-transition="zoom">
-                <h3>7.语义化</h3>
+                <h3>6.语义化</h3>
                 <p>为什么要用不同标签来完成页面？</p>
                 <ul>
                     <li class="fragment" data-fragment-index="0">推广，更容易被搜索引擎爬取</li>
@@ -123,16 +124,55 @@
                     <li class="fragment" data-fragment-index="2">内联&emsp;&emsp;使用元素的style属性</li>
                     <li class="fragment" data-fragment-index="3">浏览器默认样式 ，如题</li>
                 </ul>
+                <a href="../page/css1.html">demo</a>
             </section>
             <section data-transition="zoom">
                 <h3>2.样式属性</h3>
                 <p class="fragment" data-fragment-index="0">显示 display</p>
-                <p class="fragment" data-fragment-index="1">浮动 float 清除浮动 clear</p>
-                <p class="fragment" data-fragment-index="2">定位 position top left right bottom</p>
-                <p class="fragment" data-fragment-index="3">背景 background</p>
-                <p class="fragment" data-fragment-index="4">文本 font、line-height</p>
+                <p class="fragment" data-fragment-index="1">背景 background</p>
+                <p class="fragment" data-fragment-index="2">文本 font、line-height</p>
+                <p class="fragment" data-fragment-index="3">浮动 float 清除浮动 clear</p>
+                <p class="fragment" data-fragment-index="4">定位 position top left right bottom</p>
                 <p class="fragment" data-fragment-index="5">间距与尺寸</p>
+                <a href="../page/css2.html">demo</a>
             </section>
+            <section data-transition="zoom">
+                <h3>3.盒模型</h3>
+            </section>
+            <section data-transition="zoom">
+                <h3>元素分类</h3>
+                <ul>
+                    <li class="fragment" data-fragment-index="0">块级元素&emsp; div、p、h1-h6、ul、li等</li>
+                    <li class="fragment" data-fragment-index="0">行内元素&emsp; a、span、b、strong、em、i、label等</li>
+                    <li class="fragment" data-fragment-index="0">行内块元素 button、input、select、img等</li>
+                    <li class="fragment" data-fragment-index="1">伪元素&emsp;&emsp; ::before ::after</li>
+                </ul>
+            </section>
+            <section data-transition="zoom">
+                <h3>块级元素</h3>
+                <p>不如就叫它<b>行元素</b>吧</p>
+                <ul class="fragment" data-fragment-index="0">
+                    <li>默认情况下，块级元素会新起一行。</li>
+                    <li>一般块级元素可以包含行内元素和其他块级元素。</li>
+                    <li>可以设置宽、高、margin等</li>
+                </ul>
+            </section>
+            <section>
+                <h3>行内元素</h3>
+                <p>也叫做内联元素</p>
+                <ul class="fragment" data-fragment-index="0">
+                    <li>默认情况下，行内元素不会以新行开始。</li>
+                    <li>一般情况下，行内元素只能包含数据和其他行内元素。</li>
+                    <li>不可以设置宽、高、margin-top、margin-bottom </li>
+                </ul>
+            </section>
+
+            <section data-transition="zoom">
+                <div>
+                    <img src="img/block.png" alt="">
+                </div>
+            </section>
+
             <section data-transition="zoom">
                 <h3>3.盒模型</h3>
                 <p class="fragment" data-fragment-index="0">width、height、padding、border、margin</p>
@@ -167,6 +207,7 @@
             </section>
             <section data-transition="zoom">
                 <p>通常在一个网页中，我们用js来控制页面元素、对事件作出反应、校验用户输入、与后台数据交互、计算、实现动画动效等。</p>
+                <a href="">demo</a>
             </section>
             <section data-transition="zoom">
                 <p>但这些都只是依托于浏览器这个环境来说，随着时间推移，js可以作的事情越来越多，它可以完成后端开发、管理数据库、写游戏、桌面应用、VR\AR、开发APP、甚至开发硬件\物联网。</p>
@@ -177,7 +218,10 @@
             <h2>Chrome 调试</h2>
         </section>
 
-
+        <section data-transition="convex">
+            <h3>打完收工~</h3>
+            <div><img src="img/over.jpg" alt=""></div>
+        </section>
     </div>
 
 </div>
