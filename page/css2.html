@@ -16,7 +16,7 @@
 		}
 		
 		.wrap{
-			background: #f70;
+			background: #C8C8A9;
 			padding: 10px;
 		}
 
@@ -39,19 +39,32 @@
 	
 	<h3>float</h3>
 
-	<div class="wrap">
-		<div class="box" style="background:#f34;"></div>
-		<span style="font-size: 30px; font-family: '宋体';line-height: 1.5;color: #999;">我有一头小毛驴，我从来也不骑~	</span>
+	<div class="wrap clearfix" style="position:relative">
+		<div class="box" style="background:#FC9D9A;float:left;"></div>
+		<span style="font-size:32px;line-height:1.5;color:#f00;">我有一头小毛驴，我从来也不骑~	</span>
+		<div style="position:absolute;right:0;bottom:0;">我是定位</div>
 	</div>
 
 	<h3>position</h3>
 
 	<div class="wrap clearfix" style="position: relative;">
-		<div class="box" style="float:left;"></div>
+		<div class="box" style="float:left;background: #FC9D9A;"></div>
 		我有一头小毛驴，我从来也不骑~	
 
 		<div style="position: absolute;bottom: 0;right: 0;">我要定位在右下角</div>
 	</div>
+
+
+
+	<div style="background:red">fwfwfw</div>
+
+
+	<span style="background:red">发发发</span>
+	<span>1234</span>
+
+
+
+
 
 
 </body>
